@@ -8,7 +8,7 @@ namespace XNode.NodeGroups {
 	public class NodeGroup : Node {
 		public int width = 400;
 		public int height = 400;
-		public Color color = new Color(1f, 1f, 1f, 0.1f);
+		public Color color = new Color(0.9882354f, 0.8431373f, 0.43137261f, 1f);
 
 		public override object GetValue(NodePort port) {
 			return null;
